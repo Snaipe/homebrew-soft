@@ -1,9 +1,9 @@
 require 'formula'
 
-$repo = "https://github.com/Snaipe/c-smart-pointers.git"
+$repo = "https://github.com/Snaipe/libcsptr.git"
 
 class Libcsptr < Formula
-  homepage "https://github.com/Snaipe/c-smart-pointers/"
+  homepage "https://github.com/Snaipe/libcsptr/"
   url  $repo, :tag => "v2.0.0"
   head $repo
 
