@@ -4,7 +4,7 @@ $repo = "https://github.com/Snaipe/Criterion.git"
 
 class Libcriterion < Formula
   homepage "https://snaipe.github.io/Criterion"
-  url  $repo, :tag => "v1.1.0"
+  url  $repo, :tag => "v1.2.1"
   head $repo
 
   depends_on "autoconf" => :build
