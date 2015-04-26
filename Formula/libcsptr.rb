@@ -4,7 +4,7 @@ $repo = "https://github.com/Snaipe/libcsptr.git"
 
 class Libcsptr < Formula
   homepage "https://github.com/Snaipe/libcsptr/"
-  url  $repo, :tag => "v2.0.0"
+  url  $repo, :tag => "v2.0.2"
   head $repo
 
   depends_on "autoconf" => :build
