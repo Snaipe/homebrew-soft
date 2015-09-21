@@ -5,7 +5,8 @@ $repo = "https://github.com/Snaipe/Criterion.git"
 class Libcriterion < Formula
   homepage "https://snaipe.github.io/Criterion"
   version "2.1.0"
-  head $repo, :revision => "984ecc5a74ff6e631105675095e89174b5c254ee"
+  url  $repo, :revision => "984ecc5a74ff6e631105675095e89174b5c254ee"
+  head $repo
 
   depends_on "cmake" => :build
   depends_on "gcc"   => :build
