@@ -15,7 +15,6 @@ class Libcriterion < Formula
   def install
     system "cmake",
         "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
-        "-DCMAKE_PREFIX_PATH=/opt/local",
         "-DCMAKE_INSTALL_PREFIX=#{prefix}",
         "."
     system "make install"
