@@ -2,7 +2,7 @@ require 'formula'
 
 $repo = "https://github.com/Snaipe/Criterion.git"
 
-class Libcriterion < Formula
+class Criterion < Formula
   homepage "https://snaipe.github.io/Criterion"
   version "2.1.0"
   url  $repo, :revision => "984ecc5a74ff6e631105675095e89174b5c254ee"
