@@ -8,9 +8,8 @@ class Criterion < Formula
   url  $repo, :revision => "4e3fbde48f4f19bbbd534de60a96c2cc87550b67"
   head $repo
 
-  depends_on "cmake" => :build
-  depends_on "gcc"   => :build
-  fails_with :clang
+  depends_on "nanomsg"
+  depends_on "cmake"    => :build
 
   def install
     system "cmake",
