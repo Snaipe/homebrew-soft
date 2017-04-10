@@ -4,8 +4,8 @@ $repo = "https://github.com/Snaipe/Criterion.git"
 
 class Criterion < Formula
   homepage "https://github.com/Snaipe/Criterion"
-  version "2.3.1"
-  url  $repo, :tag => "v2.3.1"
+  version "2.3.2"
+  url  $repo, :tag => "v2.3.2"
   head $repo
 
   depends_on "nanomsg"
