@@ -16,6 +16,7 @@ class Criterion < Formula
         "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
         "-DCMAKE_INSTALL_PREFIX=#{prefix}",
         "-DCMAKE_INSTALL_LIBDIR=lib",
+        "-DI18N=OFF",
         "."
     system "make install"
   end
